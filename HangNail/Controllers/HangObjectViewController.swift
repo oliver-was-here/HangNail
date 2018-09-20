@@ -1,17 +1,10 @@
-//
-//  ViewController.swift
-//  HangNail
-//
-//  Created by Oliver Scott on 9/20/18.
-//  Copyright © 2018 Oliver Scott. All rights reserved.
-//
-
 import UIKit
 import SceneKit
 import ARKit
 
 class HangObjectViewController: UIViewController, ARSCNViewDelegate {
-
+    static let ID = "HANG_OBJ_VC"
+    
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
