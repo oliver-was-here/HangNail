@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1359BDAF215403D300C93C1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1359BDAE215403D300C93C1A /* AppDelegate.swift */; };
 		1359BDB1215403D300C93C1A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1359BDB0215403D300C93C1A /* art.scnassets */; };
-		1359BDB3215403D300C93C1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1359BDB2215403D300C93C1A /* ViewController.swift */; };
+		1359BDB3215403D300C93C1A /* HangObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1359BDB2215403D300C93C1A /* HangObjectViewController.swift */; };
 		1359BDB6215403D300C93C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1359BDB4215403D300C93C1A /* Main.storyboard */; };
 		1359BDB8215403D500C93C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1359BDB7215403D500C93C1A /* Assets.xcassets */; };
 		1359BDBB215403D500C93C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1359BDB9215403D500C93C1A /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		1359BDAB215403D300C93C1A /* HangNail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangNail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1359BDAE215403D300C93C1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1359BDB0215403D300C93C1A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		1359BDB2215403D300C93C1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1359BDB2215403D300C93C1A /* HangObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangObjectViewController.swift; sourceTree = "<group>"; };
 		1359BDB5215403D300C93C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1359BDB7215403D500C93C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1359BDBA215403D500C93C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		1359BDAD215403D300C93C1A /* HangNail */ = {
 			isa = PBXGroup;
 			children = (
+				1359BDB2215403D300C93C1A /* HangObjectViewController.swift */,
 				1359BDAE215403D300C93C1A /* AppDelegate.swift */,
 				1359BDB0215403D300C93C1A /* art.scnassets */,
-				1359BDB2215403D300C93C1A /* ViewController.swift */,
 				1359BDB4215403D300C93C1A /* Main.storyboard */,
 				1359BDB7215403D500C93C1A /* Assets.xcassets */,
 				1359BDB9215403D500C93C1A /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1359BDB3215403D300C93C1A /* ViewController.swift in Sources */,
+				1359BDB3215403D300C93C1A /* HangObjectViewController.swift in Sources */,
 				1359BDAF215403D300C93C1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
